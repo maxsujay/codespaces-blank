@@ -83,7 +83,6 @@ Law.Upgrades = {
 			Cooldown = 0.96,    -- 4
 			Range = 1.05,       -- 12
 		},
-		Skill = "Counter Shock",
 	},
 	[8] = {
 		Cost = 20000,
