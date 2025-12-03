@@ -1,5 +1,5 @@
 local Do = require(script.Parent.Parent).new("Unit")
-Do.Name = "Doffy Joker (Evolved)"
+Do.Name = "Doffy Joker (String Master)"
 Do.Rarity = "Mythic"
 Do.Cost = 1500
 Do.Type = "Ground"
