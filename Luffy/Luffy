@@ -1,5 +1,5 @@
 local Luffy = require(script.Parent.Parent).new("Unit")
-Luffy.Name = "Laffy (Sun God)"
+Luffy.Name = "Laffy"
 Luffy.Rarity = "Secret"
 Luffy.Cost = 1500
 Luffy.Type = "Ground"
@@ -11,7 +11,7 @@ Luffy.Unsummonable = true
 
 Luffy.Values = {
 	Health = 1080,
-	Damage = 380,
+	Damage = 300,
 	Cooldown = 5,
 	Range = 15,
 	PlaceLimit = 1,
@@ -72,34 +72,6 @@ Luffy.Upgrades = {
 		Multipliers = {
 			Health = 1.2,    -- 8571
 			Damage = 1.2,      -- 1875
-			Cooldown = 0.96,   -- 9
-			Range = 1.1,       -- 16
-		},
-	},
-	[7] = {
-		Cost = 10000,
-		Multipliers = {
-			Health = 1.2,      -- 4571
-			Damage = 1.66,    -- 938
-			Cooldown = 0.96,   -- 5
-			Range = 1.1,      -- 18
-		},
-		Skill = "Gum-Gum Cataclysm",
-	},
-	[8] = {
-		Cost = 12000,
-		Multipliers = {
-			Health = 1.2,      -- 4571
-			Damage = 1.2,    -- 1250
-			Cooldown = 0.96,    -- 4
-			Range = 1.1,       -- 18
-		},
-	},
-	[9] = {
-		Cost = 14000,
-		Multipliers = {
-			Health = 1.2,    -- 8571
-			Damage = 1.166,      -- 1875
 			Cooldown = 0.96,   -- 9
 			Range = 1.1,       -- 16
 		},
