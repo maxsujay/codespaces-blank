@@ -33,7 +33,7 @@ Law.Upgrades = {
 		Cost = 2000,
 		Multipliers = {
 			Health = 1.2,    -- 3143
-			Damage = 1.33,   -- 219
+			Damage = 1.46,   -- 219
 			Cooldown = 0.96,    -- 4
 			Range = 1.05,       -- 12
 		},
@@ -42,7 +42,7 @@ Law.Upgrades = {
 		Cost = 3000,
 		Multipliers = {
 			Health = 1.2,    -- 3143
-			Damage = 1.5,   -- 219
+			Damage = 1.65,   -- 219
 			Cooldown = 0.96,    -- 4
 			Range = 1.05,       -- 12
 		},
@@ -51,7 +51,7 @@ Law.Upgrades = {
 		Cost = 4000,
 		Multipliers = {
 			Health = 1.2,    -- 3143
-			Damage = 1.33,   -- 219
+			Damage = 1.46,   -- 219
 			Cooldown = 0.96,    -- 4
 			Range = 1.05,       -- 12
 		},
@@ -70,7 +70,7 @@ Law.Upgrades = {
 		Cost = 7500,
 		Multipliers = {
 			Health = 1.2,    -- 3143
-			Damage = 1.5,   -- 219
+			Damage = 1.65,   -- 219
 			Cooldown = 0.96,    -- 4
 			Range = 1.05,       -- 12
 		},
@@ -79,7 +79,7 @@ Law.Upgrades = {
 		Cost = 10000,
 		Multipliers = {
 			Health = 1.2,    -- 3143
-			Damage = 1.33,   -- 219
+			Damage = 1.66,   -- 219
 			Cooldown = 0.96,    -- 4
 			Range = 1.05,       -- 12
 		},
@@ -88,7 +88,7 @@ Law.Upgrades = {
 		Cost = 20000,
 		Multipliers = {
 			Health = 1.2,    -- 3143
-			Damage = 2,   -- 219
+			Damage = 2.5,   -- 219
 			Cooldown = 0.96,    -- 4
 			Range = 1.05,       -- 12
 		},
