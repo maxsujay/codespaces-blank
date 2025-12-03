@@ -1,0 +1,74 @@
+local Law = require(script.Parent.Parent).new("Unit")
+Law.Name = "Traffy Surgeon"
+Law.Rarity = "Secret"
+Law.Cost = 1250
+Law.Type = "Ground"
+Law.Element = "Water"
+Law.Affinity = "Physical"
+--Law.UnitIcon = "rbxassetid://84767323968855"
+
+
+Law.Values = {
+	Health = 900,
+	Damage = 120,
+	Cooldown = 5,
+	Range = 20,
+	PlaceLimit = 1,
+	Skill = "Room",
+}
+
+
+Law.Upgrades = {
+	-- Normal Upgrades
+	[1] = {
+		Cost = 1500,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.2,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[2] = {
+		Cost = 2000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.33,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[3] = {
+		Cost = 3000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.5,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[4] = {
+		Cost = 4000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.33,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+		Skill = "Counter Shock",
+	},
+	[5] = {
+		Cost = 5000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.25,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+}
+
+Law.Model = script.Law
+Law.Animation = script.Animation
+
+return Law

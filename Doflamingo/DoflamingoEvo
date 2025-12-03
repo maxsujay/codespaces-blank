@@ -1,0 +1,101 @@
+local Do = require(script.Parent.Parent).new("Unit")
+Do.Name = "Doffy Joker (Evolved)"
+Do.Rarity = "Mythic"
+Do.Cost = 1500
+Do.Type = "Ground"
+Do.Element = "Earth"
+Do.Affinity = "Magical"
+--Do.UnitIcon = "rbxassetid://84767323968855"
+
+Do.Unsummonable = true
+
+Do.Values = {
+	Health = 2700,
+	Damage = 262.5,
+	Cooldown = 5,
+	Range = 17,
+	PlaceLimit = 3,
+	Skill = "Pentachromatic Strings",
+}
+
+
+Do.Upgrades = {
+	-- Normal Upgrades
+	[1] = {
+		Cost = 3000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 2,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[2] = {
+		Cost = 5000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.66,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[3] = {
+		Cost = 6000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.2,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[4] = {
+		Cost = 7000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.16,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[5] = {
+		Cost = 8000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.14,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[6] = {
+		Cost = 10000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.25,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[7] = {
+		Cost = 12000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.2,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[8] = {
+		Cost = 14000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.16,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+}
+
+Do.Model = script.Doflamingo
+Do.Animation = script.Animation
+
+return Do

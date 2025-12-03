@@ -1,0 +1,121 @@
+local garp = require(script.Parent.Parent).new("Unit")
+garp.Name = "Hero Garph (Cannon Maniac)"
+garp.Rarity = "Secret"
+garp.Cost = 2000
+garp.Type = "Ground"
+garp.Element = "Earth"
+garp.Affinity = "Physical"
+--garp.UnitIcon = "rbxassetid://84767323968855"
+
+garp.Unsummonable = true
+
+garp.Values = {
+	Health = 1890,
+	Damage = 1155,
+	Cooldown = 8,
+	Range = 12,
+	PlaceLimit = 2,
+	Skill = "Fist Of Love",
+}
+
+
+garp.Upgrades = {
+	-- Normal Upgrades
+	[1] = {
+		Cost = 2500,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.25,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[2] = {
+		Cost = 3000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.2,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[3] = {
+		Cost = 3500,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.166,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[4] = {
+		Cost = 4000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.14,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+		Skill = "Oversized Ironball",
+	},
+	[5] = {
+		Cost = 4500,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.125,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[6] = {
+		Cost = 5000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.11,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[7] = {
+		Cost = 5500,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.1,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[8] = {
+		Cost = 6000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.09,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+		Skill = "Cannonball",
+	},
+	[9] = {
+		Cost = 7000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.16,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[10] = {
+		Cost = 8000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.14,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+}
+
+garp.Model = script.Garp
+garp.Animation = script.Animation
+
+return garp

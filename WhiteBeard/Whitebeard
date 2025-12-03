@@ -1,0 +1,111 @@
+local Whitebeard = require(script.Parent.Parent).new("Unit")
+Whitebeard.Name = "Quakebeard"
+Whitebeard.Rarity = "Secret"
+Whitebeard.Cost = 800
+Whitebeard.Type = "Ground"
+Whitebeard.Element = "Earth"
+Whitebeard.Affinity = "Physical"
+--Whitebeard.UnitIcon = "rbxassetid://84767323968855"
+
+
+Whitebeard.Values = {
+	Health = 2700,
+	Damage = 243,
+	Cooldown = 6,
+	Range = 15,
+	PlaceLimit = 3,
+	Skill = "Tremor Impact",
+}
+
+
+Whitebeard.Upgrades = {
+	-- Normal Upgrades
+	[1] = {
+		Cost = 1600,
+		Multipliers = {
+			Health = 1.05,    -- 3143
+			Damage = 2,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 12
+		},
+	},
+	[2] = {
+		Cost = 1800,
+		Multipliers = {
+			Health = 1.2,    -- 4000
+			Damage = 1.125,    -- 281
+			Cooldown = 0.96,   -- 3
+			Range = 1.05,       -- 12
+		},
+	},
+	[3] = {
+		Cost = 2400,
+		Multipliers = {
+			Health = 1.2,   -- 4571
+			Damage = 1.333,    -- 531
+			Cooldown = 0.96,   -- 7
+			Range = 1.05,       -- 16
+		},
+		Skill = "Tremor Counter",
+	},
+	[4] = {
+		Cost = 3000,
+		Multipliers = {
+			Health = 1.2,      -- 4571
+			Damage = 1.25,    -- 938
+			Cooldown = 0.96,   -- 5
+			Range = 1.05,      -- 18
+		},
+	},
+	[5] = {
+		Cost = 4000,
+		Multipliers = {
+			Health = 1.2,      -- 4571
+			Damage = 1.333,    -- 1250
+			Cooldown = 0.96,    -- 4
+			Range = 1.05,       -- 18
+		},
+	},
+	[6] = {
+		Cost = 5000,
+		Multipliers = {
+			Health = 1.2,    -- 8571
+			Damage = 1.25,      -- 1875
+			Cooldown = 0.96,   -- 9
+			Range = 1.05,       -- 16
+		},
+		Skill = "Tremor Strike"
+	},
+	[7] = {
+		Cost = 7500,
+		Multipliers = {
+			Health = 1.2,    -- 9714
+			Damage = 1.5,    -- 2313
+			Cooldown = 0.96,   -- 7
+			Range = 1.05,     -- 18
+		},
+	},
+	[8] = {
+		Cost = 10000,
+		Multipliers = {
+			Health = 1.2,      -- 9714
+			Damage = 1.333,    -- 2531
+			Cooldown = 0.96,   -- 5
+			Range = 1.05,      -- 20
+		},
+	},
+	[9] = {
+		Cost = 12000,
+		Multipliers = {
+			Health = 1.2,      -- 9714
+			Damage = 1.2,    -- 2531
+			Cooldown = 0.96,   -- 5
+			Range = 1.05,      -- 20
+		},
+	},
+}
+
+Whitebeard.Model = script.Whitebeard
+Whitebeard.Animation = script.Animation
+
+return Whitebeard

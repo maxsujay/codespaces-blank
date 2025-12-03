@@ -1,0 +1,66 @@
+local uta = require(script.Parent.Parent).new("Unit")
+uta.Name = "Yuta Song"
+uta.Rarity = "Mythic"
+uta.Cost = 1000
+uta.Type = "Ground"
+uta.Element = "Light"
+uta.Affinity = "Magical"
+--uta.UnitIcon = "rbxassetid://84767323968855"
+
+uta.Unsummonable = true
+
+
+uta.Values = {
+	Health = 1080,
+	Damage = 95,
+	Cooldown = 4,
+	Range = 8,
+	PlaceLimit = 3,
+	Skill = "Resonance Field",
+}
+
+
+uta.Upgrades = {
+	-- Normal Upgrades
+	[1] = {
+		Cost = 2000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 2,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.1,       -- 12
+		},
+	},
+	[2] = {
+		Cost = 4000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 2,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.1,       -- 12
+		},
+	},
+	[3] = {
+		Cost = 8000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 2,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.1,       -- 12
+		},
+	},
+	[4] = {
+		Cost = 10000,
+		Multipliers = {
+			Health = 1.2,    -- 3143
+			Damage = 1.25,   -- 219
+			Cooldown = 0.96,    -- 4
+			Range = 1.1,       -- 12
+		},
+	},
+}
+
+uta.Model = script.Uta
+uta.Animation = script.Animation
+
+return uta
