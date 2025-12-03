@@ -12,7 +12,7 @@ Luffy.Unsummonable = true
 
 Luffy.Values = {
 	Health = 1080,
-	Damage = 495,
+	Damage = 380,
 	Cooldown = 5,
 	Range = 15,
 	PlaceLimit = 1,
