@@ -1,5 +1,5 @@
 local Law = require(script.Parent.Parent).new("Unit")
-Law.Name = "Traffy Surgeon (Evolved)"
+Law.Name = "Traffy Surgeon (ROOM)"
 Law.Rarity = "Secret"
 Law.Cost = 1250
 Law.Type = "Ground"
