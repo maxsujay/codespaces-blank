@@ -14,6 +14,7 @@ Whitebeard.Values = {
 	Cooldown = 6,
 	Range = 15,
 	PlaceLimit = 3,
+	Critical = 10,
 	Skill = "Tremor Impact",
 }
 
@@ -80,7 +81,7 @@ Whitebeard.Upgrades = {
 		Cost = 7500,
 		Multipliers = {
 			Health = 1.2,    -- 9714
-			Damage = 1.5,    -- 2313
+			Damage = 1.65,    -- 2313
 			Cooldown = 0.96,   -- 7
 			Range = 1.05,     -- 18
 		},
@@ -89,7 +90,7 @@ Whitebeard.Upgrades = {
 		Cost = 10000,
 		Multipliers = {
 			Health = 1.2,      -- 9714
-			Damage = 1.333,    -- 2531
+			Damage = 1.46,    -- 2531
 			Cooldown = 0.96,   -- 5
 			Range = 1.05,      -- 20
 		},
@@ -98,7 +99,7 @@ Whitebeard.Upgrades = {
 		Cost = 12000,
 		Multipliers = {
 			Health = 1.2,      -- 9714
-			Damage = 1.2,    -- 2531
+			Damage = 1.32,    -- 2531
 			Cooldown = 0.96,   -- 5
 			Range = 1.05,      -- 20
 		},
