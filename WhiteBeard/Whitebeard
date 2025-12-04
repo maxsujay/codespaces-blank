@@ -7,6 +7,7 @@ Whitebeard.Element = "Earth"
 Whitebeard.Affinity = "Physical"
 --Whitebeard.UnitIcon = "rbxassetid://84767323968855"
 
+Whitebeard.Unsummonable = true
 
 Whitebeard.Values = {
 	Health = 2700,
