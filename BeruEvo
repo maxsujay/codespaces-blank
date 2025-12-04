@@ -12,7 +12,7 @@ Beru.Unsummonable = true
 
 Beru.Values = {
 	Health = 5714,
-	Damage = 1250,
+	Damage = 765,
 	Cooldown = 8,
 	Range = 12,
 	Critical = 10,
