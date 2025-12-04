@@ -1,0 +1,105 @@
+local Beru = require(script.Parent.Parent).new("Unit")
+Beru.Name = "Ant King"
+Beru.Rarity = "Secret"
+Beru.Cost = 2150
+Beru.Type = "Ground"
+Beru.Element = "Water"
+Beru.Affinity = "Physical"
+Beru.UnitIcon = "rbxassetid://127822470784604"
+
+Beru.Limited = true
+Beru.Unsummonable = true
+
+
+Beru.Values = {
+	Health = 3429,
+	Damage = 395,
+	Cooldown = 6,
+	Range = 11, -- 
+	Critical = 10,
+	PlaceLimit = 2,
+	Skill = "Ice Spikes",
+}
+
+Beru.Upgrades = {
+	[1] = {
+		Cost = 2500,
+		Multipliers = {
+			Health = 1.1333,   -- 4571
+			Damage = 1.486,     -- 190
+			Cooldown = 1.0,    -- 6
+			Range = 1.0,       -- 8
+		},
+
+	},
+	[2] = {
+		Cost = 1000,
+		Multipliers = {
+			Health = 1.02,      -- 6857
+			Damage = 2.22,     -- 524
+			Cooldown = 0.6667, -- 4
+			Range = 1.25,      -- 10
+		},
+
+	},
+	[3] = {
+		Cost = 1500,
+		Multipliers = {
+			Health = 1.05,   -- 9143
+			Damage = 2.976,    -- 1190
+			Cooldown = 1.75,   -- 7
+			Range = 1.875,     -- 15
+		},
+		Skill = "Poison Spit",
+	},
+	[4] = {
+		Cost = 3500,
+		Multipliers = {
+			Health = 1.02,      -- 9143
+			Damage = 1.4,      -- 1667
+			Cooldown = 0.857,  -- 6
+			Range = 1.125,     -- 18
+		},
+	},
+	[5] = {
+		Cost = 4000,
+		Multipliers = {
+			Health = 1.23,      -- 9143
+			Damage = 1.05,    -- 2143
+			Cooldown = 1.0,    -- 6
+			Range = 1.1111,    -- 20
+		},
+		Skill = "Beru Rush"
+	},
+	[6] = {
+		Cost = 4500,
+		Multipliers = {
+			Health = 1.07,    -- 11429
+			Damage = 1.05,    -- 3333
+			Cooldown = 1.5,    -- 12
+			Range = 1.15,      -- 25
+		},
+	},
+	[7] = {
+		Cost = 5000,
+		Multipliers = {
+			Health = 1.102,      -- 11429
+			Damage = 1.05,    -- 3809
+			Cooldown = 0.917,  -- 11
+			Range = 1.0,       -- 25
+		},
+	},
+	[8] = {
+		Cost = 5500,
+		Multipliers = {
+			Health = 1.104,      -- 12571
+			Damage = 1.05,     -- 4762
+			Cooldown = 0.909,  -- 10
+			Range = 1.03,       -- 30
+		},
+	},
+}
+Beru.Model = script.Beru
+Beru.Animation = script.Animation
+
+return Beru
