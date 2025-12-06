@@ -5,7 +5,7 @@ Eto.Cost = 1000
 Eto.Type = "Ground"
 Eto.Element = "Fire"
 Eto.Affinity = "Physical"
-Eto.UnitIcon = "rbxassetid://72626388262351"
+--Eto.UnitIcon = "rbxassetid://72626388262351"
 
 Eto.Values = {
 	Health = 1957,
