@@ -1,5 +1,5 @@
 local Kaneki = require(script.Parent.Parent).new("Unit")
-Kaneki.Name = "Ghoul Investigator"
+Kaneki.Name = "Kapeki"
 Kaneki.Rarity = "Secret"
 Kaneki.Cost = 500
 Kaneki.Type = "Ground"
