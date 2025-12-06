@@ -6,7 +6,7 @@ Kaneki.Type = "Ground"
 Kaneki.Element = "Fire"
 Kaneki.Affinity = "Physical"
 --Kaneki.ViewportOffset = CFrame.new(-1, 4.1, -1.2) * CFrame.fromEulerAnglesXYZ(0, math.rad(10), 0)
-Kaneki.UnitIcon = "rbxassetid://72626388262351"
+--Kaneki.UnitIcon = "rbxassetid://72626388262351"
 
 Kaneki.Values = {
 	Health = 2300,  -- Base
