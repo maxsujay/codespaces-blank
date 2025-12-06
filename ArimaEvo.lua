@@ -1,7 +1,7 @@
 local Arima = require(script.Parent.Parent).new("Unit")
 Arima.Name = "Ghoul Investigator (CCG)"
 Arima.Rarity = "Secret"
-Arima.Cost = 1350
+Arima.Cost = 800
 Arima.Type = "Ground"
 Arima.Element = "Dark"
 Arima.Affinity = "Physical"
