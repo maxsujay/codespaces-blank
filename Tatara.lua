@@ -5,7 +5,6 @@ Tatara.Cost = 2000
 Tatara.Type = "Ground"
 Tatara.Element = "Earth"
 Tatara.Affinity = "Physical"
-Tatara.UnitIcon = "rbxassetid://0"
 
 Tatara.Values = {
 	Health = 900,
