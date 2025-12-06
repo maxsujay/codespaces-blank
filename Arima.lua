@@ -6,7 +6,7 @@ Arima.Type = "Ground"
 Arima.Element = "Dark"
 Arima.Affinity = "Physical"
 --Arima.ViewportOffset = CFrame.new(-1, 4.1, -1.2) * CFrame.fromEulerAnglesXYZ(0, math.rad(10), 0)
-Arima.UnitIcon = "rbxassetid://72626388262351"
+--Arima.UnitIcon = "rbxassetid://72626388262351"
 
 Arima.Values = {
 	Health = 2000,  -- Base
