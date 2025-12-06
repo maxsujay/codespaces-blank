@@ -5,7 +5,6 @@ JuuzoSC.Cost = 950
 JuuzoSC.Type = "Ground"
 JuuzoSC.Element = "Fire"
 JuuzoSC.Affinity = "Physical"
-JuuzoSC.UnitIcon = "rbxassetid://0"
 
 JuuzoSC.Values = {
 	Health = 1080,
